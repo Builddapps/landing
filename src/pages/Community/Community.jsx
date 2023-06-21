@@ -7,7 +7,7 @@ function Community() {
   return (
     <div className='comm_container'>
         <div className='comm_header'>
-            <h1>Join the web 3.0 evolution</h1>
+            <h1>Join the web 3.0 Evolution</h1>
             <p>the DEIP community is a globally distributed home of developers, token holders, validators, and members supporting the protocol</p>
         </div>
 

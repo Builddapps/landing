@@ -1,77 +1,77 @@
 .comm_header {
+  background: #0000;
+  background-image: url("../../assets/space.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  overflow-x: hidden !important;
+}
+
+.comm_header h1 {
+  padding-top: 10rem;
+  color: #ffffff;
+  font-size: 82px;
+  font-family: "poppins";
+  text-align: center;
+  /* width: 800px; */
+}
+
+.comm_header p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.people_in_comm {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+.people_in_comm img {
+  width: 200px;
+}
+
+.people_in_comm .people_in_col2 {
+  width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .comm_header {
     background: #0000;
-    background-image: url('../../assets/space.png');
+    background-image: url("../../assets/space.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    overflow-x: hidden !important;
-}
-
-.comm_header h1 {
-    padding-top: 10rem;
-    color: #ffffff;
-    font-size: 82px;
-    font-family: 'poppins';
-    width: 800px;
-}
-
-.comm_header p {
-    color: #ffffff;
-}
-
-
-.people_in_comm {
+    overflow-x: hidden;
+  }
+  .people_in_comm {
     display: flex;
     justify-content: space-evenly;
-    padding: 5rem;
-}
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
 
-.people_in_comm img {
-    width: 200px;
-}
+  .people_in_comm p {
+    width: 80%;
+  }
 
-.people_in_comm .people_in_col2 {
-    width: 500px;
-}
-
-@media screen and (max-width: 600px) {
-
-    .comm_header {
-        background: #0000;
-        background-image: url('../../assets/space.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 600px;
-        overflow-x: hidden;
-    }
-    .people_in_comm {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .people_in_comm p {
-        width: 80%;
-    }
-
-    .comm_header h1 {
-        padding-top: 10rem;
-        color: #ffffff;
-        font-size: 52px;
-        font-family: 'poppins';
-        width: 80%;
-        padding-left: 1rem;
-    }
-    .comm_header p {
-        color: #ffffff;
-        width: 80%;
-        padding-left: 1rem;
-    }
-    .people_in_comm .people_in_col2 {
-        width: 80%;
-    }
+  .comm_header h1 {
+    padding-top: 10rem;
+    color: #ffffff;
+    font-size: 52px;
+    font-family: "poppins";
+    width: 80%;
+    padding-left: 1rem;
+  }
+  .comm_header p {
+    color: #ffffff;
+    width: 80%;
+    padding-left: 1rem;
+  }
+  .people_in_comm .people_in_col2 {
+    width: 80%;
+  }
 }

@@ -1,6 +1,6 @@
 .bull3_token_head {
-  background: #18EEC2;
-overflow-x: hidden;
+  background: #18eec2;
+  overflow-x: hidden;
 }
 
 .bull3_vid-banner {
@@ -12,6 +12,41 @@ overflow-x: hidden;
 .lightt {
   display: none;
 }
+.col1 {
+  margin-bottom: 20px;
+  /* background: #18eec2; */
+}
+.col1 h1 {
+  margin-bottom: 30px;
+}
+.roadmap-div {
+  flex-direction: column;
+  /* height: 300px; */
+}
+/* .token-intro {
+  display: flex;
+  flex-direction: column;
+} */
+.token-intro .col1,
+.col2,
+.col3 {
+  width: 300px;
+}
+.BBT-link {
+  text-decoration: none !important;
+  color: #000000;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.BBT-link:hover {
+  background: #000;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
 /*FOR OTHER CHARTS*/
 .chart_row {
   display: flex;
@@ -23,25 +58,23 @@ overflow-x: hidden;
 }
 .apchart_col2 .presale::before {
   content: "\2022";
-  color: #18EEC2;
+  color: #18eec2;
   width: 2rem;
   font-weight: 900;
   margin-right: 5px;
-
 }
 
 .apchart_col2 .project_allocation::before {
   content: "\2022";
-  color: #FF5733;
+  color: #ff5733;
   width: 2rem;
   font-weight: 900;
   margin-right: 5px;
-
 }
 
 .apchart_col2 .strategic::before {
   content: "\2022";
-  color: #26DCEE;
+  color: #26dcee;
   width: 2rem;
   font-weight: 900;
   margin-right: 5px;
@@ -49,7 +82,7 @@ overflow-x: hidden;
 
 .apchart_col2 .team_ads::before {
   content: "\2022";
-  color: #D026EE;
+  color: #d026ee;
   width: 2rem;
   font-weight: 900;
   margin-right: 5px;
@@ -57,7 +90,7 @@ overflow-x: hidden;
 
 .apchart_col2 .partnership::before {
   content: "\2022";
-  color: #A226EE;
+  color: #a226ee;
   width: 2rem;
   font-weight: 900;
   margin-right: 5px;
@@ -65,7 +98,7 @@ overflow-x: hidden;
 
 .apchart_col2 .staking_reward::before {
   content: "\2022";
-  color: #4A26EE;
+  color: #4a26ee;
   width: 2rem;
   font-weight: 900;
   margin-right: 5px;
@@ -73,7 +106,7 @@ overflow-x: hidden;
 
 .apchart_col2 .liquidity::before {
   content: "\2022";
-  color: #2672EE;
+  color: #2672ee;
   width: 2rem;
   font-weight: 900;
   margin-right: 5px;
@@ -81,7 +114,7 @@ overflow-x: hidden;
 
 .apchart_col2 .reserves::before {
   content: "\2022";
-  color: #26EE6C;
+  color: #26ee6c;
   width: 2rem;
   font-weight: 900;
   margin-right: 5px;
@@ -105,7 +138,6 @@ overflow-x: hidden;
   background: #fff;
   height: 700px;
 } */
-
 
 .bull3_vid-banner {
   padding-top: 5rem;
@@ -154,13 +186,15 @@ overflow-x: hidden;
   color: #ffffff;
 }
 
-.token-intro .col1, .col2, .col3 {
+.token-intro .col1,
+.col2,
+.col3 {
   width: 350px;
 }
 
 .token-intro h2 {
   text-align: left;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-size: 32px;
 }
 
@@ -173,7 +207,7 @@ overflow-x: hidden;
 
 .token-intro p {
   font-size: 20px;
-  font-family: 'poppins';
+  font-family: "poppins";
   color: #c8ccce;
 }
 
@@ -200,9 +234,12 @@ overflow-x: hidden;
   background: #ffffff;
 }
 
-.roadmap-div .road_col1, .road_col2, .road_col3, .road_col4 {
-  border-top: 3px solid #18EEC2;
-  border-bottom: 3px solid #18EEC2;
+.roadmap-div .road_col1,
+.road_col2,
+.road_col3,
+.road_col4 {
+  border-top: 3px solid #18eec2;
+  border-bottom: 3px solid #18eec2;
   /* background: #eeeeef; */
   background: #fbf9f9;
   border-radius: 20px;
@@ -213,7 +250,6 @@ overflow-x: hidden;
 .token_ditribution {
   height: 600px;
   background: #fbf9f9;
-
 }
 
 .token_ditribution h1 {
@@ -221,8 +257,6 @@ overflow-x: hidden;
   text-align: center;
   padding: 3rem;
 }
-
-
 
 @media screen and (max-width: 1050px) {
   .chart_row {
@@ -234,20 +268,22 @@ overflow-x: hidden;
   .apchart_col2 {
     display: flex;
     margin-left: 1rem;
-
   }
 
   .token_ditribution {
     height: 900px;
     background: #fbf9f9;
-  z-index: 2;
+    z-index: 2;
   }
-
-} 
+}
 
 @media screen and (max-width: 600px) {
+  .col1,
+  .col2 {
+    margin-bottom: 3rem;
+  }
   .bull3_vid-banner {
-    background: #18EEC2;
+    background: #18eec2;
     /* height: auto; */
     padding: 1rem;
   }
@@ -278,48 +314,51 @@ overflow-x: hidden;
     padding-top: 5rem;
   }
 
+  .token-intro {
+    background: #000000;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+  }
 
-.token-intro {
-  background: #000000;
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #ffffff;
-}
+  .roadmap-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 1rem;
+  }
+  .roadmap-div {
+    margin-bottom: 20px;
+  }
+  .road_col1 {
+    width: 80%;
+  }
+  .token-intro {
+    background: #000000;
+    padding: 5rem;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+  }
 
-.roadmap-div {
-  padding: 5rem;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 20px;
-}
+  .multi-chain_coin {
+    background: #ffffff;
+    padding: 1rem;
+    height: auto;
+  }
 
-.token-intro {
-  background: #000000;
-  padding: 5rem;
-  display: flex;
-  height: auto;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #ffffff;
-}
+  .multi-chain_coin h2 {
+    font-size: 32px;
+  }
 
-
-.multi-chain_coin {
-  background: #ffffff;
-  padding: 1rem;
-  height: auto;
-}
-
-.multi-chain_coin h2 {
-  font-size: 32px;
-}
-
-.multi-chain_coin p {
-  font-size: 23px;
-  padding-top: 30px;
-}
+  .multi-chain_coin p {
+    font-size: 23px;
+    padding-top: 30px;
+  }
 }
