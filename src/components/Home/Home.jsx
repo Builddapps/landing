@@ -1,22 +1,22 @@
 import Hero from '../Heropage/Heropage'
-import Listen from '../Listentoearn/Listen'
-import Uses from '../Uses/Uses'
-import Song from '../Song/Song'
-import Carousel from '../Artists/Artists'
-import Partner from '../Partner/Partner'
-import Download from '../Download/Download'
+import Afhero from '../Afhero/Afhero'
+import Allchain from '../Allchain/Allchain'
+import Features from '../Feature/Feature'
+import Buildweb from '../Buildweb/Buildweb'
+import Slide from '../Slide/Slide'
+import Accord from '../Accordion/Accordion'
 import './home.css'
 
 const Home = () => {
   return (
     <div className="home">
       <Hero />
-      <Listen />
-      <Uses />
-      <Song />
-      <Carousel />
-      <Partner />
-      <Download />
+      <Slide/>
+      <Buildweb/>
+      <Afhero/>
+      <Features/>
+      <Accord/>
+      <Allchain/>
     </div>
   )
 }

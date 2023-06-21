@@ -56,7 +56,7 @@ const ArtisteData = () => {
         <input
           type="text"
           name="Name"
-          placeholder="Stage Name"
+          placeholder="Project Name"
           required
           onChange={(e) => setName(e.target.value)}
           value={name}

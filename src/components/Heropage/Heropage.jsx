@@ -1,18 +1,13 @@
 import React from 'react'
-// import { DefaultPlayer as Video } from 'react-html5video/dist'
 import './hero.css'
-// import sound2 from '../../assets/sound-sign1.svg'
-// import sound3 from '../../assets/sound-sign3.svg'
-// import Hicon1 from '../../assets/h-icon.svg'
-// import Hicon2 from '../../assets/h-icon2.png'
-// import Hicon3 from '../../assets/h-icon3.svg'
-import binance from '../../assets/binance.svg'
-import bull from '../../assets/bullch.svg'
-import ipfs from '../../assets/ipfs.svg'
-import unity from '../../assets/unity.svg'
-import zep from '../../assets/zep.svg'
-// import girl from '../../assets/girl.mp4'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
+import Dollar from '../../assets/dollar-50.png';
+import Pen from '../../assets/pen-50.png';
+import Like from '../../assets/like-50.png';
+import Crowd from '../../assets/crowd-50.png';
+
+
 
 const Header = () => {
   return (
@@ -21,50 +16,51 @@ const Header = () => {
         <div className="bull3__header-content">
           <div className="small_screen bull_hero_display">
             <p>
-              Autonomy
-              <span className="bull_intro_image ">
-                <img src={binance} alt="" />
-                <img src={zep} alt="" />
-                <img src={bull} alt="" />
-                <img src={ipfs} alt="" />
-                <img src={unity} alt="" />
-              </span>
-              web3 music space
+              Economy for dapps
             </p>
           </div>
-          <span className="bull_intro_image small_screen_2 ">
-            <img src={binance} alt="" />
-            <img src={zep} alt="" />
-            <img src={bull} alt="" />
-            <img src={ipfs} alt="" />
-            <img src={unity} alt="" />
-          </span>
 
-          <h1 className="bull3__broad small_h1">Autonomy web3 music space.</h1>
+          {/* <h1 className="bull3__broad small_h1">Economy for dapps.</h1> */}
 
           <section className="animation">
             <div className="first">
-              <div>Mint for free.</div>
+              <div>Become a VC with a token.</div>
             </div>
             <div className="second">
-              <div>Buy and Sell Music NFTs</div>
+              <div>Web3 against web2</div>
             </div>
             <div className="third">
-              <div>Listen and earn </div>
+              <div>Build a better web </div>
             </div>
           </section>
-          <p className="bull_3_p">
-            Lifetime royalty for artists on every trade.
-          </p>
-
+          <div className='ontop_bull'>
+            <div className='ontop_cover'>
+              <div className='col_1'>
+                <sub> <img src={Dollar} alt="" srcset="" /> Asset under management</sub>
+                <p>$89,093,000</p>
+              </div>
+              <div className='col_2'>
+              <sub> <img src={Pen} alt="" srcset="" /> Total proposals</sub>
+              <p>280</p>
+              </div>
+              <div className='col_3'>
+              <sub> <img src={Like} alt="" srcset="" /> Total Votes</sub>
+              <p>$6m</p>
+              </div>
+              <div className='col_4'>
+              <sub> <img src={Crowd} alt="" srcset="" /> Members</sub>
+              <p>$28m</p>
+              </div>
+            </div>
+          </div>
           <div className="bull3__header-content_btn">
-            <button className="btn-2" type="button" disabled>
+            {/* <button className="btn-2" type="button" disabled>
               <a disabled target="_blank" rel="noreferrer">
                 Private Sale
               </a>
-            </button>
+            </button> */}
             <button className="btn-2" type="button">
-              <Link to={'/artisteform'}>For Artist</Link>
+              <Link to={'/artisteform'}>Build With Us</Link>
             </button>
           </div>
         </div>

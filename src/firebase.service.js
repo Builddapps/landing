@@ -9,5 +9,5 @@ class ArtistDataService  {
         return addDoc(artistsCollectionRef, newArtist)
     }
 }
-
+ // eslint-disable-next-line
 export default new ArtistDataService();

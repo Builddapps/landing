@@ -46,7 +46,7 @@
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 50%;
-    border: 6px solid rgb(162, 25, 230);
+    border: 6px solid rgb(24, 238, 194);
     /* Use a clip-path to hide and show the bits you want */
     clip-path: polygon(0 0, 50% 50%, 100% 0);
   }
@@ -76,7 +76,7 @@ input:hover {
 .listening-button {
   width: 150px;
   height: 60px;
-  background: #8742c7;
+  background: #18EEC2;
   color: #ffffff;
   border-radius: 0px 10px 10px 0px;
   border: none;
@@ -99,7 +99,7 @@ html {
   .submit_button {
     width: 120px;
     height: 50px;
-    background: #8742c7;
+    background: #18EEC2;
     color: #ffffff;
     border-radius: 0px 10px 10px 0px;
     border: none;
@@ -147,7 +147,8 @@ html {
 }
 
 .bul3_form-container {
-  margin-top: 10rem;
+  padding-top: 10rem;
+  background-image: linear-gradient(to right top, #ffffff, #fefefe, #fdfdfe, #fcfdfd, #fbfcfc, #ecfbfb, #ddfaf9, #cdf9f7, #aaf7f0, #85f5e4, #5af2d5, #18eec2);
 }
 .form {
   width: 90%;
@@ -161,6 +162,7 @@ html {
   width: 60%;
   border-radius: 0;
   padding: 10px;
+  padding-top: 5rem;
   margin-bottom: 10px;
   margin-left: 5px;
   border: transparent;
@@ -183,7 +185,7 @@ html {
 .submit_button {
   width: 80px;
   height: 50px;
-  background: #8742c7;
+  background: #18EEC2;
   color: #ffffff;
   border-radius: 0px 10px 10px 0px;
   border: none;
@@ -204,14 +206,14 @@ html {
   
 }
 
-.bull3_artist-down {
+/* .bull3_artist-down {
   margin-top: 5rem;
   background-image: url("../src/assets/roadmapdown.png");
   background-repeat: no-repeat;
   background-position:right;
   background-size: cover;
   height: 300px;
-}
+} */
 
 .bull3_artist-down h1 {
   font-family: "Verdana";
@@ -222,13 +224,13 @@ html {
 }
 
 @media screen and (max-width: 800px) {
-  .bull3_artist-down {
+  /* .bull3_artist-down {
     background-image: url("../src/assets/roadmapdown.png");
     background-repeat: no-repeat;
     background-position:right;
     background-size: cover;
     height: 300px;
-  }
+  } */
   
   .bull3_artist-down h1 {
     font-family: "Verdana";

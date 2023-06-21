@@ -1,0 +1,62 @@
+.afhero_container {
+    background: #ffffff;
+    margin-top: 5rem;
+    margin: 2rem;
+}
+
+.afhero_container h2 {
+    font-size: 30px;
+}
+
+.afhero_container h2, .afhero_p {
+    text-align: center;
+    align-items: left;
+}
+
+
+.afhero_row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.afhero_col1 {
+    font-size: 30px;
+    font-family: "poppins";
+    font-weight: 800;
+    max-width: 400px;
+    margin-top: 5rem;
+}
+
+
+.afhero_col2 {
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 400;
+    max-width: 400px;
+}
+
+.afhero_col2 p {
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 600px){
+    .afhero_row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .afhero_container {
+        margin: 2rem;
+    }
+
+    .afhero_container h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .afhero_container p {
+        text-align: left;
+    }
+    
+}

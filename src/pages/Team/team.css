@@ -1,36 +1,36 @@
-.bull3_team-container {
-  /* margin-top: 15rem; */
-}
+/* .bull3_team-container {
+} */
 .bull3_vid-banner-team {
-  background: #6d00bf;
+  background: #000000;
   height: 500px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  color: #ffffff;
   margin-bottom: 60px;
 }
 
-.team-intro {
-  width: 60%;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  height: 350px;
-  background-image: url("../../assets/bullchordb\ \(1\).png");
-  background-position: center;
-  background-size: 300px;
-  background-repeat: no-repeat;
+.bull3_vid-banner-team .team_col2 {
+  max-width: 600px;
+  font-size: 25px;
 }
-.team-intro p {
-  text-align: center;
-  line-height: 30px;
-  font-family: "Verdana";
-  font-size: 18px;
+
+.vision_div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
 }
+
+.vision_div .vision_col2 {
+  max-width: 500px;
+  font-size: 26px;
+}
+
 .team-section {
   width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
   margin-bottom: 30px;
 
@@ -47,7 +47,8 @@
 .bull3_team {
   font-size: 200px;
   text-align: center;
-  color: #000000;
+  color: #D9EE00;
+
 }
 
 
@@ -86,22 +87,22 @@
   transform: translateY(-10px);
 }
 
-.bull3_vid-banner-team h1 {
-  width: 100%;
+.bull3_vid-banner-team img {
+  width: 400px;
   font-size: 200px;
   text-align: center;
-  color: #000000;
+  color: #D9EE00;
   line-height: 20vh;
   /* mix-blend-mode: screen; */
 }
 
-.bull3_downbg {
+/* .bull3_downbg {
   background-image: url("../../assets/roadmapdown.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-}
+} */
 
 .bull3_downbg h1 {
   font-family: "Verdana";
@@ -112,30 +113,18 @@
 }
 
 @media screen and (max-width: 850px) {
-  .team-intro {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 100px;
-    height: 300px;
-    background-image: url("../../assets/bullchordb\ \(1\).png");
-    background-position: center;
-    background-size: 200px;
-    background-repeat: no-repeat;
-  }
 
 
 .bull3_vid-banner-team {
-  background: #6d00bf;
-  height: 400px;
+  height: 600px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 60px;
+  padding: 1rem;
 }
 
-  .team-intro p {
-    font-size: 16px;
-  }
   .team-section {
     width: 80%;
     margin: 0 auto;
@@ -154,14 +143,6 @@
   .bull3_vid-banner-team h1 {
     font-size: 100px;
   }
-
-  .bull3_downbg {
-    background-image: url("../../assets/roadmapdown.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-  }
   
   .bull3_downbg h1 {
     font-family: "Verdana";
@@ -170,10 +151,18 @@
     padding: 6rem 2rem;
     color: #cecece;
   }
+
+  .vision_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+  }
   
 }
 
 @media screen and (max-width: 450px) {
+
   .team-section {
     width: 80%;
     margin: 0 auto;

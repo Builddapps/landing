@@ -1,0 +1,27 @@
+.blockchains {
+    /* margin: 2rem; */
+    overflow-x: hidden !important;
+    font-size: 20px;
+    color: #fff;
+    background: #ffffff;
+    padding: 2rem;
+    
+    box-shadow:  -1px 1px 1px #18EEC2,
+             1px -1px 1px #18EEC2;
+}
+
+/* .ttt {
+    display: flex;
+} */
+
+.blockchains img {
+    width: 25px;
+}
+
+
+@media screen and (max-width: 600px){
+    .blockchains {
+        padding: 2rem;
+        font-size: 16px;
+    }
+}
