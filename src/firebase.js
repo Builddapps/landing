@@ -1,17 +1,21 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import {getFirestore} from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
+const FIREBASE_APIKEY = process.env.FIREBASE_APIKEY;
+const FIREBASE_APIID = process.env.FIREBASE_APIID;
+const FIREBASE_autheDomain = process.env.FIREBASE_autheDomain
+const FIREBASE_messagingSenderId = process.env.FIREBASE_messagingSenderId
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB5RJ9D8wyUj6J_iTG_t9cfF8stfxkH0vg",
-  authDomain: "correct-bullchord.firebaseapp.com",
+  apiKey: FIREBASE_APIKEY,
+  authDomain: FIREBASE_autheDomain,
   projectId: "correct-bullchord",
   storageBucket: "correct-bullchord.appspot.com",
-  messagingSenderId: "965085215898",
-  appId: "1:965085215898:web:72cdd43274398a15acb323"
+  messagingSenderId: FIREBASE_messagingSenderId,
+  appId: FIREBASE_APIID,
 };
 
 // Initialize Firebase

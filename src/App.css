@@ -3,7 +3,6 @@
   margin: 0;
   scroll-behavior: smooth;
   /* overflow-x: hidden !important; */
-
 }
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
@@ -24,7 +23,6 @@
 
 .bul3_form-container img {
   width: 100%;
-
 }
 
 .input {
@@ -34,24 +32,22 @@
 
 .underlined {
   /*   background: red; */
-    position: relative;
-  }
+  position: relative;
+}
 
-  .underline-clip:after {
-    content: '';
-    position: absolute;
-    top: 95%;
-    width: 150%;
-    aspect-ratio: 3 / 1;
-    left: 50%;
-    transform: translate(-50%, 0);
-    border-radius: 50%;
-    border: 6px solid rgb(24, 238, 194);
-    /* Use a clip-path to hide and show the bits you want */
-    clip-path: polygon(0 0, 50% 50%, 100% 0);
-  }
-
-
+.underline-clip:after {
+  content: "";
+  position: absolute;
+  top: 95%;
+  width: 150%;
+  aspect-ratio: 3 / 1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  border: 6px solid rgb(24, 238, 194);
+  /* Use a clip-path to hide and show the bits you want */
+  clip-path: polygon(0 0, 50% 50%, 100% 0);
+}
 
 input {
   background: transparent;
@@ -61,7 +57,6 @@ input {
   outline: none;
   color: #222222;
   font-size: 18px;
-
 }
 
 input::placeholder {
@@ -76,7 +71,7 @@ input:hover {
 .listening-button {
   width: 150px;
   height: 60px;
-  background: #18EEC2;
+  background: #18eec2;
   color: #ffffff;
   border-radius: 0px 10px 10px 0px;
   border: none;
@@ -98,15 +93,16 @@ html {
   .listening-button,
   .submit_button {
     width: 120px;
-    height: 50px;
-    background: #18EEC2;
-    color: #ffffff;
+    /* height: 50px; */
+    background: #18eec2;
+    /* color: #ffffff; */
     border-radius: 0px 10px 10px 0px;
     border: none;
     font-family: "poppins";
     font-size: 16px;
     padding: 10px;
-    line-height: 154.1%;
+    /* padding-top: 0; */
+    /* line-height: 154.1%; */
     letter-spacing: 0.025em;
     font-weight: 500;
     cursor: pointer;
@@ -125,9 +121,8 @@ html {
   }
   .form {
     width: 90%;
-    
   }
-  
+
   .form input {
     width: 100%;
     border-radius: 0;
@@ -148,7 +143,21 @@ html {
 
 .bul3_form-container {
   padding-top: 10rem;
-  background-image: linear-gradient(to right top, #ffffff, #fefefe, #fdfdfe, #fcfdfd, #fbfcfc, #ecfbfb, #ddfaf9, #cdf9f7, #aaf7f0, #85f5e4, #5af2d5, #18eec2);
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #fefefe,
+    #fdfdfe,
+    #fcfdfd,
+    #fbfcfc,
+    #ecfbfb,
+    #ddfaf9,
+    #cdf9f7,
+    #aaf7f0,
+    #85f5e4,
+    #5af2d5,
+    #18eec2
+  );
 }
 .form {
   width: 90%;
@@ -156,17 +165,16 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 .form input {
   width: 60%;
   border-radius: 0;
-  padding: 10px;
-  padding-top: 5rem;
+  padding: 25px;
+  /* padding-top: 5rem; */
   margin-bottom: 10px;
   margin-left: 5px;
   border: transparent;
-  font-size: 16px;
+  font-size: 20px;
   border-bottom: 1px solid #00000011;
 }
 .form input:focus {
@@ -184,15 +192,15 @@ html {
 }
 .submit_button {
   width: 80px;
-  height: 50px;
-  background: #18EEC2;
+  /* height: 50px; */
+  background: #18eec2;
   color: #ffffff;
   border-radius: 0px 10px 10px 0px;
   border: none;
   font-family: "poppins";
   font-size: 16px;
   padding: 10px;
-  line-height: 154.1%;
+  /* line-height: 154.1%; */
   letter-spacing: 0.025em;
   font-weight: 500;
   cursor: pointer;
@@ -203,7 +211,6 @@ html {
   font-size: 30px;
   font-weight: 700;
   line-height: 50px;
-  
 }
 
 /* .bull3_artist-down {
@@ -231,7 +238,7 @@ html {
     background-size: cover;
     height: 300px;
   } */
-  
+
   .bull3_artist-down h1 {
     font-family: "Verdana";
     font-size: 30px;
