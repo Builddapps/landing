@@ -9,8 +9,8 @@ const ArtisteData = () => {
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
   const [twitter, setTwitter] = useState('')
-  const [instagram, setInstagram] = useState('')
-  const [tiktok, setTiktok] = useState('')
+  const [github, setGithub] = useState('')
+  const [telegram, setTelegram] = useState('')
   const notify = () => toast('Form submitted')
   // const [message, setMessage] = useState({error: false, msg: ''})
   const handleSubmit = async (e) => {
@@ -21,8 +21,8 @@ const ArtisteData = () => {
       email === '' ||
       phone === '' ||
       twitter === '' ||
-      instagram === '' ||
-      tiktok === ''
+      github === '' ||
+      telegram === ''
     ) {
       // setMessage({error: true, msg: "Add all fields"});
       return
@@ -32,8 +32,8 @@ const ArtisteData = () => {
       email: email,
       phone: phone,
       twitter: twitter,
-      instagram: instagram,
-      tiktok: tiktok,
+      github: github,
+      telegram: telegram,
     }
 
     try {
@@ -47,8 +47,8 @@ const ArtisteData = () => {
     setEmail('')
     setPhone('')
     setTwitter('')
-    setInstagram('')
-    setTiktok('')
+    setGithub('')
+    setTelegram('')
   }
   return (
     <>
@@ -95,18 +95,18 @@ const ArtisteData = () => {
           />
           <input
             type="text"
-            name="Instagram"
-            placeholder="Instagram link"
+            name="github"
+            placeholder="Github link"
             required
-            onChange={(e) => setInstagram(e.target.value)}
-            value={instagram}
+            onChange={(e) => setGithub(e.target.value)}
+            value={github}
           />
           <input
             type="text"
-            name="Tiktok"
-            placeholder="Tiktok link"
-            onChange={(e) => setTiktok(e.target.value)}
-            value={tiktok}
+            name="telegram"
+            placeholder="Telegram link"
+            onChange={(e) => setTelegram(e.target.value)}
+            value={telegram}
           />
           {email ? (
             <input
