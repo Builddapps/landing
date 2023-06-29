@@ -14,6 +14,10 @@ const Footer = () => {
   //   console.log(emailList)
   //   setEmaillist('')
   // }
+
+  let date = new Date();
+  let thisYear = date.getFullYear();
+
   return (
     <>
       <div className="footer">
@@ -21,8 +25,7 @@ const Footer = () => {
           <div className="footer-logo">
             <img src={logo3} alt="" />
             <p>
-              Bullchord is a dedicated decentralized music NFT and metaverse
-              ecosystem. We aim to change the sphere of music.
+            decentrabuilds is an innovative DAO protocol that provides financial solutions to build new technologies that solve real-life problems and create a secured investment for everyone on the blockchain.  decentrabuilds ecosystem comprises a voting algorithm, a lottery and a Dex platform. 
             </p>
           </div>
           <div className="footer-menu">
@@ -94,7 +97,9 @@ const Footer = () => {
           </div>
         </div>
         <p className="copyright">
-          Copyright © 2023 Bullchord. All rights reserved.
+          {
+              `Copyright © ${thisYear} decentrabuilds. All rights reserved.`
+          }
         </p>
       </div>
     </>

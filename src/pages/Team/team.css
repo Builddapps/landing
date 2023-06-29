@@ -59,13 +59,15 @@
   align-items: center;
   flex-direction: column;
   background: rgba(181, 199, 200, 0.13);
-
   border-radius: 6px;
   box-shadow: 0 4px 10px 0 rgba(189, 208, 223, 0.104);
 }
 
 .team-member img {
   width: 120px;
+  margin: 20px;
+  /* border-radius: 100px;
+  border: 2px solid #18eec2; */
 }
 
 .team-section h3 {

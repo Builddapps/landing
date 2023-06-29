@@ -20,7 +20,7 @@ function Buildweb() {
           <div data-aos="fade-right" className="buildweb_col1">
             <p data-aos="fade-right">
               {' '}
-              Builddapps is a web3 altorinius DAO protocol that allows leverage
+              decentrabuilds is a web3 altorinius DAO protocol that allows leverage
               on the community to create the avenue for web3 project to spring
               forth effortlessly.{' '}
             </p>
@@ -30,7 +30,7 @@ function Buildweb() {
               {' '}
               Build token investors and holders are builders of the future.
               Every piece of token of build is a share for every applications
-              that will be live through full or partly support of builddapps
+              that will be live through full or partly support of decentrabuilds
               ecosystem.{' '}
             </p>
           </div>

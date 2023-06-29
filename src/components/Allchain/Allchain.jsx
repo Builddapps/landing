@@ -7,19 +7,18 @@ function Allchain() {
   return (
     <div className="allchain_container">
       <h1>
-        Multi-chain infrastructure for
-        <br /> decentralized creator economy
+        Multi-chain support for
+        <br /> decentralized applications.
       </h1>
       <div className="allchain_div">
         <div className="allchain_col1">
-          <p>Replay track</p>
+          <p>Decentralized VCs</p>
           <img src={Smart} alt="" />
         </div>
         <div className="allchain_col2">
           <p>
-            DEIP is a Substrate-based chain with advanced interchain
-            interoperability provided by a Collective Intelligence Labs
-            Multichain Infrastructure.
+            decentrabuilds is a easy but advanced multichain structure for
+            interoperability. You build, the commuinty support.
           </p>
         </div>
       </div>

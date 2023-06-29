@@ -55,9 +55,9 @@ const ArtisteData = () => {
       <div className="bul3_form-container">
         <div className="descrip">
           <p>
-            Be The First Artistes To Join <span>Bullchord</span>, <br /> Mint
-            and Sell Your Songs As <br />{' '}
-            <span className="underlined underline-clip">NFT</span>
+            Submit the information of your <span>Dapp/Project</span>, <br /> We
+            will review and get back to you. <br />{' '}
+            <span className="underlined underline-clip">Build</span>
           </p>
         </div>
         <form className="form" action="" onSubmit={handleSubmit}>

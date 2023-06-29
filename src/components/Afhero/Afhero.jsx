@@ -15,9 +15,10 @@ function Afhero() {
                     </p>
                 </div>
                 <div className='afhero_col2'>
-                    <p> Builddapps is an innovation to build web3 dapps successfully using the the decentralized, tokenized incubator and accelerator programs through investment on the build token and the protocol internally generated revenue. This will help web3 startups across all industries and blockchain networks to build products and services that solve real-world problems.</p>
+                    <p> decentrabuilds is an innovative DAO protocol that provides financial solutions to build new technologies that solve real-life problems and create a secured investment for everyone on the blockchain.  decentrabuilds ecosystem comprises a voting algorithm, a lottery and a Dex platform. 
+             This will help web3 startups across all industries and blockchain networks to build products and services that solve real-world problems.</p>
 
-                    <p>Builddapps provides  investors with access to a multiple portfolio of projects, and its smart contract-based autonomous voting system, making it efficient, decentralized and user-friendly for investors.</p>
+                    <p>decentrabuilds provides  investors with access to a multiple portfolio of projects, and its smart contract-based autonomous voting system, making it efficient, decentralized and user-friendly for investors.</p>
                     <p></p>
                 </div>
             </div>

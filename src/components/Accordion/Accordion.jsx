@@ -5,7 +5,7 @@ const dataCollection = [
     {
         question: 'Projects Invested Reward',
 
-        answer: ' Builddapps will support projects that are building on web3 based on the automous decison through voting of the community and token holdrers. The projects we fund will have the obligation to support the investors(buld token holders) at the successful launch of the their project and the token revceived from the dapps will be distributed to all the people that participated in the voting round in proprotion to the build token they hold. There is a vesting period of 4 months for the token to be distributed to all holders. ',
+        answer: ' decentrabuilds will support projects that are building on web3 based on the automous decison through voting of the community and token holdrers. The projects we fund will have the obligation to support the investors(buld token holders) at the successful launch of the their project and the token revceived from the dapps will be distributed to all the people that participated in the voting round in proprotion to the build token they hold. There is a vesting period of 4 months for the token to be distributed to all holders. ',
     },
 
     {

@@ -19,6 +19,8 @@
 }
 .header-body p {
   font-size: 30px;
+  width: 70%;
+  margin: 0 auto;
 }
 /* .comm_header h1 {
   padding-top: 10rem;
@@ -37,8 +39,11 @@
   font-size: 16px;
 }
 .people_in_col1 img {
-  width: 300px;
+  width: 200px;
+  border-radius: 50%;
 }
+
+
 .people_in_comm {
   display: flex;
   justify-content: space-between;
