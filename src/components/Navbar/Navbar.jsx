@@ -18,19 +18,19 @@ const Menu = () => (
       Community
     </Link>
     <a
-      href="https://bullchords-organization.gitbook.io/litepaper/"
+      href="https://decentrabuilds-litepaper/"
       target="_blank"
       rel="noreferrer"
       className='links'>
       Litepaper
     </a>
-    <a
+    {/* <a
       href="https://bullchords-organization.gitbook.io/litepaper/"
       target="_blank"
       rel="noreferrer"
       className='links'>
-      Dashboard
-    </a>
+      Vote
+    </a> */}
   </>
 
 )

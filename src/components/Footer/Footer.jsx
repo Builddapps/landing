@@ -4,7 +4,7 @@ import './footer.css'
 import logo3 from '../../assets/logoblack.png'
 // import BullInput from '../../BullInput'
 // import telegram from '../../assets/ftele.png'
-import medium from '../../assets/fmedium.svg'
+// import medium from '../../assets/fmedium.svg'
 import twitter from '../../assets/ftwitter.svg'
 import discord from '../../assets/Fdiscord.svg'
 
@@ -25,7 +25,9 @@ const Footer = () => {
           <div className="footer-logo">
             <img src={logo3} alt="" />
             <p>
-            decentrabuilds is an innovative DAO protocol that provides financial solutions to build new technologies that solve real-life problems and create a secured investment for everyone on the blockchain.  decentrabuilds ecosystem comprises a voting algorithm, a lottery and a Dex platform. 
+            Decentrabuilds is a DAO protocol that allows leverage
+              on the community to create the avenue for web3 project to build
+              effortlessly.{' '}
             </p>
           </div>
           <div className="footer-menu">
@@ -71,22 +73,22 @@ const Footer = () => {
                 {/* <a href="#">
                   <img src={telegram} alt="" />
                 </a> */}
-                <a
+                {/* <a
                   href="https://medium.com/@bullchord"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={medium} alt="" />
-                </a>
+                </a> */}
                 <a
-                  href="https://twitter.com/bullchord"
+                  href="https://twitter.com/decentrabuilds"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={twitter} alt="" />
                 </a>
                 <a
-                  href="https://discord.gg/bPzTeDke2h"
+                  href="https://discord.gg/nbjgab3sKX"
                   target="_blank"
                   rel="noreferrer"
                 >

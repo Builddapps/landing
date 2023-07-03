@@ -50,7 +50,7 @@ const Team = () => {
             <img src={Devin} alt="" srcset="" />
           </div>
           <div className='team_col2'>
-            <p>decentrabuilds is a team of developers, web3 enthusiasts and builders. We aim to create the solution for web3 funding and make alot of ventuture capitalist in differenr investment size.</p>
+            <p>Decentrabuilds is a team of developers, web3 enthusiasts and builders. We aim to create the solution for web3 funding and make alot of venture capitalists of different investment size.</p>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ const Team = () => {
           </div>
           <div className='vision_col2'>
             <p>
-            decentrabuilds is supporting projects of great potential in Web3. Our vision is to be a source and base for the development of web3, and we look ahead to a future transformed for the better through blockchain technology. 
+            We are supporting projects of great potential in Web3. Our vision is to be a source and base for the development of web3, and we look ahead to a future transformed for the better through blockchain technology. 
             </p>
             <br/>
             <p>

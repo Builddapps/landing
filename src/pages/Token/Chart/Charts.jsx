@@ -55,14 +55,14 @@ import Chart from "react-apexcharts";
             </div>
             <div className="apchart_col2">
                 <ul>
-                    <li className="presale">Presale</li>
-                    <li className="project_allocation">Project Allocation</li>
-                    <li className="strategic">Strategic Support</li>
-                    <li className="team_ads">Team and Advisors</li>
-                    <li className="partnership">Partnership/Ecosystem/Marketing</li>
-                    <li className="staking_reward">Staking Reward</li>
-                    <li className="liquidity">Liquidity Pool Rewarc</li>
-                    <li className="reserves">Researves</li>
+                    <li className="presale">Presale 10%</li>
+                    <li className="project_allocation">Project Allocation 25%</li>
+                    <li className="strategic">Strategic Support 2%</li>
+                    <li className="team_ads">Team and Advisors 8%</li>
+                    <li className="partnership">Partnership/Ecosystem/Marketing 12%</li>
+                    <li className="staking_reward">Staking Reward 10%</li>
+                    <li className="liquidity">Liquidity Pool Reward 15%</li>
+                    <li className="reserves">Researves 18%</li>
                 </ul>
             </div>
      

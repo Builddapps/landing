@@ -48,25 +48,25 @@ const Chart = () => {
             <img src={Stake} alt="" srcset="" />
             <h2>Utility</h2>
             <p>
-            decentrabuilds token is a native token and it serves multiple purposes, it is used for the lottery, staking, dex base currency. All financial transactions in decentrabuilds have fees that will allow some token to reduce circulation and others that we use BNB, the accumulated BNB will be used to buy back and burn decentrabuilds tokens. 
+            Decentrabuilds token is a native token and it serves multiple purposes, it is used for the lottery, locking, dex base currency.  
             </p>
           </div>
           <div className="col3">
             <img src={Gov} alt="" srcset="" />
             <h2>Governance token</h2>
             <p>
-            decentrabuilds token provides holders with voting rights for the selection of Project partners and the ability to earn based on token hold during the vote. Also, other activities for future projects and network imorovement will be through the community votes.
+            Decentrabuilds token provides holders with voting rights for the selection of Project partners and the ability to earn based on token locked during the votes. 
             </p>
           </div>
         </div>
 
         <div className="multi-chain_coin">
           <h2>
-            decentrabuilds token is on the BSC network. However, If there will be need to have a wrap on other network, eg("Builddaps Aptos") the amount of token will be burnt on the BSC network. 
+            Decentrabuilds token is on the BSC network. However, if there will be a need to have a wrap on other network in the future, eg("$DCEB Aptos"), the amount of token will be burnt on the BSC network. 
           </h2>
           <p>
             Wrapped token will serve to maintain operability and seamless multi-chain
-            transactions and will always remain liquid both on all
+            activities and will always remain liquid on all
             networks.
           </p>
         </div>
@@ -76,125 +76,61 @@ const Chart = () => {
           <h1>Q3, 2023</h1>
           <div className="road_col1">
             <div className="roadmap-div">
-              <h2>decentrabuilds website Launch</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
+              <h2>Decentrabuilds website Launch</h2>
             </div>
             <div className="roadmap-div">
               <h2>Lite paper Version 1</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>Project Research</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>Launch Pad</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>Dex Listing/Liquity lock</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>List on Coinmarketcap & Coingecko</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
-              <h2>DAO VOTING</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
+              <h2>Consensus Voting Application</h2>
             </div>
           </div>
           <h1>Q4, 2023</h1>
           <div className="road_col2">
             <div className="roadmap-div">
               <h2>Lottery App</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>Ambassador Program</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>Strategic Partnership</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
           </div>
           <h1>Q1, 2024</h1>
           <div className="road_col3">
             <div className="roadmap-div">
               <h2>DEX Launch</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>Listing on CEX</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>Strategic Partnership</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
           </div>
           <h1>Q2, 2024</h1>
           <div className="road_col4">
             <div className="roadmap-div">
               <h2>Builddaps Fest</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>Strategic partnership</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
             <div className="roadmap-div">
               <h2>V3 Litepaper</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Sapiente, nobis.
-              </p>
             </div>
           </div>
         </div>

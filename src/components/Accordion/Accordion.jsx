@@ -3,28 +3,28 @@ import './accordion.css';
 
 const dataCollection = [
     {
-        question: 'Projects Invested Reward',
+        question: 'Projects Investment Reward',
 
-        answer: ' decentrabuilds will support projects that are building on web3 based on the automous decison through voting of the community and token holdrers. The projects we fund will have the obligation to support the investors(buld token holders) at the successful launch of the their project and the token revceived from the dapps will be distributed to all the people that participated in the voting round in proprotion to the build token they hold. There is a vesting period of 4 months for the token to be distributed to all holders. ',
+        answer: ' Decentrabuilds will support projects that are building on web3 based on the decison through voting of the community and token holders. The projects we fund will have the obligation to support the investors($DCEB token holders) at the successful launch of the their project and token. The token received from the dapps will be distributed to all the people that participated in the voting round in proprotion to the $DCEB token they stake. There is a vesting period of 4 months for the token to be distributed to all holders. ',
     },
 
     {
         question: 'Lottery Reward',
-        answer: ' Lottery reward is an engaging system to distribute reward from a pool. Ticket will be sold to perticipants and the best luck person wins the reward.',
+        answer: ' Lottery reward is an engaging system to distribute reward from a pool. Ticket will be sold to participants and the lucky people wins the reward.',
     },
 
     {
-        question: 'Staking Reward',
-        answer: ' Staking build tokens allows you to perticipate in the voting rounds for projects which gives you back the reward through your votes and you also eanr 20% apy for staking the build token. ',
+        question: 'Locking Reward',
+        answer: ' Locking $DCEB tokens allows you to perticipate in the voting rounds for projects which gives you back the reward through your votes and you also earn 10% lock for 1 months, 15% for 3 months, 20% for 6 months 30%, 50% for 1 year for locking. ',
     },
 
     {
         question: 'Token burning ',
-        answer: ' 1% of the tokens sold in the market will be burned to reduced the numbers of coins in circulation. There is built along in the token contract to keep the price stable. ',
+        answer: ' 10% of the tokens in lottery will be burnt. 90% of BNB generated through vote will be used to buy back and burn.',
     },
     {
         question: 'Governance',
-        answer: ' build is an autrosic autonomous application and the tokens gives you the access to join the decision makers in the ecosystem.',
+        answer: ' $DCEB tokens gives access to join the decision makers in the ecosystem.',
     },
 
 ];

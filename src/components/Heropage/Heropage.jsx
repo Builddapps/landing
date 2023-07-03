@@ -13,7 +13,7 @@ const Header = () => {
       <div className="bull3__header" id="home">
         <div className="bull3__header-content">
           <div className="small_screen bull_hero_display">
-            <p>Economy for dapps</p>
+            <p>Economy For Dapps</p>
           </div>
 
           {/* <h1 className="bull3__broad small_h1">Economy for dapps.</h1> */}
@@ -23,7 +23,7 @@ const Header = () => {
               <div>Become a VC with a token.</div>
             </div>
             <div className="second">
-              <div>Web3 against web2</div>
+              <div>Creating multiple ROI</div>
             </div>
             <div className="third">
               <div>Build a better web </div>
@@ -34,30 +34,30 @@ const Header = () => {
               <div className="col_1">
                 <sub>
                   {' '}
-                  <img src={Dollar} alt="" srcset="" /> Asset under management
+                  <img src={Dollar} alt="" srcset="" /> Initial Capitalization
                 </sub>
-                <p>$89,093,000</p>
+                <p>$243,000</p>
               </div>
               <div className="col_2">
                 <sub>
                   {' '}
                   <img src={Pen} alt="" srcset="" /> Total proposals
                 </sub>
-                <p>280</p>
+                <p>23</p>
               </div>
               <div className="col_3">
                 <sub>
                   {' '}
                   <img src={Like} alt="" srcset="" /> Total Votes
                 </sub>
-                <p>$6m</p>
+                <p>$-</p>
               </div>
               <div className="col_4">
                 <sub>
                   {' '}
-                  <img src={Crowd} alt="" srcset="" /> Members
+                  <img src={Crowd} alt="" srcset="" /> Token holders
                 </sub>
-                <p>$28m</p>
+                <p>290</p>
               </div>
             </div>
           </div>

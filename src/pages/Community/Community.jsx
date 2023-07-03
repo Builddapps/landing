@@ -4,6 +4,9 @@ import './community.css'
 import James from '../../assets/James.jpeg'
 import Zoe from '../../assets/zoe.jpeg'
 import Toby from '../../assets/Toby.png'
+import Twitter from '../../assets/twitter-name.png'
+import Discord from '../../assets/discord-name.png'
+
 
 
 function Community() {
@@ -26,10 +29,7 @@ function Community() {
         <div className="people_in_col2">
           <h1>Web 3 Developer</h1>
           <p>
-            " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
-            reiciendis illo saepe magni alias, deleniti laudantium porro
-            exercitationem atque nulla aperiam. Pariatur asperiores odio ab
-            reiciendis quam cupiditate cumque consectetur."
+            " I worked on Mindal Kinder some years ago. It is a game dapps. I built an MVP but I could not access any support. Having a project like decentrabuilds is a great solution to the future of Decentralized applications"
             <br/>
             <h4>Chan Yang</h4>
           </p>
@@ -43,10 +43,7 @@ function Community() {
         <div className="people_in_col2">
           <h1>Investor</h1>
           <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            atque fugiat pariatur alias velit id eos. Ratione libero laudantium,
-            voluptate enim omnis quam dolorem autem eligendi vel, architecto et
-            eius?"
+            "A lot of ideas died because of lack of funding. Facebook could have been just a dream with the little support that held it at a point byt Edwardo. It is time for us to come together and finance Dapps of our dreams through decentrabuilds."
             <br/>
             <h4>Zoe Beam</h4>
           </p>
@@ -60,10 +57,7 @@ function Community() {
         <div className="people_in_col2">
           <h1>Web 3 enthusiast</h1>
           <p>
-            " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
-            nesciunt fugit, cum blanditiis molestias minus pariatur explicabo
-            nulla nam voluptates atque. Magnam obcaecati accusamus dolores
-            explicabo, laudantium nostrum. Earum, sunt."
+            " I am bullish with the innovation of decentrabuilds. The power of collaboration and decentralization is powerful. I know awesome dapps will be birthed through Decentrabuilds."
             <br/>
             <h4>James Shelvey</h4>
           </p>
@@ -71,6 +65,20 @@ function Community() {
       </div>
 
       <h1 className="comm_container_h1">Dive right into our community</h1>
+      <div className='comm_box_row'>
+        <div className='comm_box_col1'>
+            <img src={Discord} alt="" />
+           <p>Members</p>
+           <p className='members'>2</p>
+          <a href="https://discord.gg/nbjgab3sKX" target='_blank' rel="noreferrer"><button>Join The Builders</button></a>
+        </div>
+        <div className='comm_box_col2'>
+          <img src={Twitter} alt="" />
+          <p>Members</p>
+          <p className='members'>152</p>
+         <a href="https://twitter.com/decentrabuilds"target='_blank' rel="noreferrer"><button>Join The Builders</button></a>
+        </div>
+      </div>
     </div>
   )
 }
