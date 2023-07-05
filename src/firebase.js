@@ -1,24 +1,27 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-const FIREBASE_APIKEY = process.env.FIREBASE_APIKEY;
-const FIREBASE_APIID = process.env.FIREBASE_APIID;
-const FIREBASE_autheDomain = process.env.FIREBASE_autheDomain
-const FIREBASE_messagingSenderId = process.env.FIREBASE_messagingSenderId
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// import { getAnalytics } from "firebase/analytics";
 
-// Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCkU-rF385gjq6EH9xD28olXEwBqCEH07I",
+//   authDomain: "decentrabuilds-e0101.firebaseapp.com",
+//   projectId: "decentrabuilds-e0101",
+//   storageBucket: "decentrabuilds-e0101.appspot.com",
+//   messagingSenderId: "272099182095",
+//   appId: "1:272099182095:web:1972596f66f56a651bc57a",
+//   measurementId: "G-KHPJYN7NRC"
+// };
+
 const firebaseConfig = {
-  apiKey: FIREBASE_APIKEY,
-  authDomain: FIREBASE_autheDomain,
-  projectId: "correct-bullchord",
-  storageBucket: "correct-bullchord.appspot.com",
-  messagingSenderId: FIREBASE_messagingSenderId,
-  appId: FIREBASE_APIID,
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESS_SENDER_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.MEASUREMENT_ID 
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);

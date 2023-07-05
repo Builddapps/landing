@@ -15,7 +15,7 @@ const dataCollection = [
 
     {
         question: 'Locking Reward',
-        answer: ' Locking $DCEB tokens allows you to perticipate in the voting rounds for projects which gives you back the reward through your votes and you also earn 10% lock for 1 months, 15% for 3 months, 20% for 6 months 30%, 50% for 1 year for locking. ',
+        answer: ' Locking $DCEB tokens allows you to perticipate in the voting rounds for projects which gives you back the reward through your votes and you also earn: 30days(12%APR), 90days(28%APR), 180days(58%APY) and 360days(88%APR).',
     },
 
     {

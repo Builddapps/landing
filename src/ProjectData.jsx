@@ -2,15 +2,15 @@
 import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import ArtistDataService from '../src/firebase.service'
+import ProjectsDataService from './firebase.service'
 // import './artists.css'
-const ArtisteData = () => {
+const ProjectsData = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
   const [twitter, setTwitter] = useState('')
   const [github, setGithub] = useState('')
-  const [telegram, setTelegram] = useState('')
+  const [aim, setAim] = useState('')
   const notify = () => toast('Form submitted')
   // const [message, setMessage] = useState({error: false, msg: ''})
   const handleSubmit = async (e) => {
@@ -22,22 +22,22 @@ const ArtisteData = () => {
       phone === '' ||
       twitter === '' ||
       github === '' ||
-      telegram === ''
+      aim === ''
     ) {
       // setMessage({error: true, msg: "Add all fields"});
       return
     }
-    const newArtist = {
+    const newProject = {
       name: name,
       email: email,
       phone: phone,
       twitter: twitter,
       github: github,
-      telegram: telegram,
+      aim: aim,
     }
 
     try {
-      await ArtistDataService.addArtists(newArtist)
+      await ProjectsDataService.addProjects(newProject)
       // setMessage({error: false, msg: "new artist added"})
     } catch (err) {
       // setMessage({error: true, msg: err.message})
@@ -48,7 +48,7 @@ const ArtisteData = () => {
     setPhone('')
     setTwitter('')
     setGithub('')
-    setTelegram('')
+    setAim('')
   }
   return (
     <>
@@ -64,7 +64,7 @@ const ArtisteData = () => {
           <input
             type="text"
             name="Name"
-            placeholder="Project Name"
+            placeholder="Project Name & Link"
             required
             onChange={(e) => setName(e.target.value)}
             value={name}
@@ -103,10 +103,10 @@ const ArtisteData = () => {
           />
           <input
             type="text"
-            name="telegram"
-            placeholder="Telegram link"
-            onChange={(e) => setTelegram(e.target.value)}
-            value={telegram}
+            name="Aim"
+            placeholder="Project Description"
+            onChange={(e) => setAim(e.target.value)}
+            value={aim}
           />
           {email ? (
             <input
@@ -129,4 +129,4 @@ const ArtisteData = () => {
     </>
   )
 }
-export default ArtisteData
+export default ProjectsData

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import logo from '../../assets/logoblack.png'
 import './navbar.css'
 // Try and understand BEM later BLOCK ELEMENT MODIFIER
+import Litepaper from '../../assets/decentrabuilds.pdf';
 
 const Menu = () => (
   <>
@@ -18,7 +19,7 @@ const Menu = () => (
       Community
     </Link>
     <a
-      href="https://decentrabuilds-litepaper/"
+      href={Litepaper}
       target="_blank"
       rel="noreferrer"
       className='links'>

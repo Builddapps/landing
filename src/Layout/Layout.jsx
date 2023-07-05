@@ -8,7 +8,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navigation from '../components/Navbar/Navbar'
 import './layout.css'
 import Footer from '../components/Footer/Footer'
-import ArtisteData from '../ArtisteData'
+import ProjectsData from '../ProjectData'
 
 const Layouts = () => {
   return (
@@ -21,7 +21,7 @@ const Layouts = () => {
           <Route path="/team" element={<Team />} />
           <Route path='/community' element={<Community/>}/>
           <Route path="/tokenomics" element={<Tokenomics />} />
-          <Route path="/artisteform" element={<ArtisteData />} />
+          <Route path="/projectsform" element={<ProjectsData />} />
         </Routes>
       </div>
       <Footer />

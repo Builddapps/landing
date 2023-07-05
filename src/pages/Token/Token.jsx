@@ -48,14 +48,14 @@ const Chart = () => {
             <img src={Stake} alt="" srcset="" />
             <h2>Utility</h2>
             <p>
-            Decentrabuilds token is a native token and it serves multiple purposes, it is used for the lottery, locking, dex base currency.  
+            Decentrabuilds token is a native token and it serves multiple purposes, it is used for the lottery, locking, and dex base currency.  
             </p>
           </div>
           <div className="col3">
             <img src={Gov} alt="" srcset="" />
             <h2>Governance token</h2>
             <p>
-            Decentrabuilds token provides holders with voting rights for the selection of Project partners and the ability to earn based on token locked during the votes. 
+            Decentrabuilds token provides holders with voting rights for the selection of Project partners and the ability to earn based on tokens locked during the votes. 
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Chart = () => {
             Decentrabuilds token is on the BSC network. However, if there will be a need to have a wrap on other network in the future, eg("$DCEB Aptos"), the amount of token will be burnt on the BSC network. 
           </h2>
           <p>
-            Wrapped token will serve to maintain operability and seamless multi-chain
+            Wrapped tokens will serve to maintain operability and seamless multi-chain
             activities and will always remain liquid on all
             networks.
           </p>
@@ -76,10 +76,10 @@ const Chart = () => {
           <h1>Q3, 2023</h1>
           <div className="road_col1">
             <div className="roadmap-div">
-              <h2>Decentrabuilds website Launch</h2>
+              <h2>Website Launch</h2>
             </div>
             <div className="roadmap-div">
-              <h2>Lite paper Version 1</h2>
+              <h2>Litepaper V1</h2>
             </div>
             <div className="roadmap-div">
               <h2>Project Research</h2>
@@ -91,10 +91,13 @@ const Chart = () => {
               <h2>Dex Listing/Liquity lock</h2>
             </div>
             <div className="roadmap-div">
+              <h2>Strategic Partnership</h2>
+            </div>
+            <div className="roadmap-div">
               <h2>List on Coinmarketcap & Coingecko</h2>
             </div>
             <div className="roadmap-div">
-              <h2>Consensus Voting Application</h2>
+              <h2>Dao Voting Application</h2>
             </div>
           </div>
           <h1>Q4, 2023</h1>
@@ -108,11 +111,14 @@ const Chart = () => {
             <div className="roadmap-div">
               <h2>Strategic Partnership</h2>
             </div>
+            <div className="roadmap-div">
+              <h2>Litepaper V2</h2>
+            </div>
           </div>
           <h1>Q1, 2024</h1>
           <div className="road_col3">
             <div className="roadmap-div">
-              <h2>DEX Launch</h2>
+              <h2>Decentrabuilds DEX Launch</h2>
             </div>
             <div className="roadmap-div">
               <h2>Listing on CEX</h2>
@@ -120,17 +126,17 @@ const Chart = () => {
             <div className="roadmap-div">
               <h2>Strategic Partnership</h2>
             </div>
+            <div className="roadmap-div">
+              <h2>Litepaper V3</h2>
+            </div>
           </div>
           <h1>Q2, 2024</h1>
           <div className="road_col4">
             <div className="roadmap-div">
-              <h2>Builddaps Fest</h2>
+              <h2>Decentrabuilds Global Conference</h2>
             </div>
             <div className="roadmap-div">
               <h2>Strategic partnership</h2>
-            </div>
-            <div className="roadmap-div">
-              <h2>V3 Litepaper</h2>
             </div>
           </div>
         </div>

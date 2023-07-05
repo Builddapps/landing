@@ -2,12 +2,12 @@ import {db} from "../src/firebase";
 
 import { collection, addDoc } from "firebase/firestore";
 
-const artistsCollectionRef = collection(db, "artist");
+const projectsCollectionRef = collection(db, "projects");
 
-class ArtistDataService  {
-   addArtists = (newArtist) => {
-        return addDoc(artistsCollectionRef, newArtist)
+class ProjectsDataService  {
+   addProjects = (newProject) => {
+        return addDoc(projectsCollectionRef, newProject)
     }
 }
  // eslint-disable-next-line
-export default new ArtistDataService();
+export default new ProjectsDataService();

@@ -50,14 +50,14 @@ const Header = () => {
                   {' '}
                   <img src={Like} alt="" srcset="" /> Total Votes
                 </sub>
-                <p>$-</p>
+                <p>$0</p>
               </div>
               <div className="col_4">
                 <sub>
                   {' '}
                   <img src={Crowd} alt="" srcset="" /> Token holders
                 </sub>
-                <p>290</p>
+                <p>1</p>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Header = () => {
               </a>
             </button> */}
             <button className="btn-2" type="button">
-              <Link to={'/artisteform'}>Build With Us</Link>
+              <Link to={'/projectsform'}>Build With Us</Link>
             </button>
           </div>
         </div>

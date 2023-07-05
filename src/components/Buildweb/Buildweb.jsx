@@ -21,7 +21,7 @@ function Buildweb() {
             <p data-aos="fade-right">
               {' '}
               Decentrabuilds is a DAO protocol that allows leverage
-              on the community to create the avenue for web3 project to build
+              on the community to create the avenue for web3 projects to build
               effortlessly.{' '}
             </p>
           </div>
@@ -29,8 +29,8 @@ function Buildweb() {
             <p data-aos="fade-left">
               {' '}
               $DCEB token investors and holders are builders of the future.
-              Every token of Decentrabuilds is a share for every applications
-              that will be live on full or partly support of decentrabuilds
+              Every token of Decentrabuilds is a share for every application
+              that will be live in full or part support of decentrabuilds
               ecosystem.{' '}
             </p>
           </div>
