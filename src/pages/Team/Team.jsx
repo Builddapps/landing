@@ -7,7 +7,8 @@ import Devin from "../../assets/devinvestor.png";
 import Santos from "../../assets/santos.png";
 import Mich from "../../assets/Mich.png";
 import Collins from "../../assets/collins.png";
-import Jessica from "../../assets/jessica.png"
+import Jessica from "../../assets/jessica.png";
+// import linkedin from "../../assets/ball.png";
 
 
 const teamData = [
@@ -15,7 +16,7 @@ const teamData = [
     id: 1,
     founderName: 'Michael B',
     pos: 'Web/Blockchain dev',
-    linked: 'https://www.linkedin.com/in/michael-b-319a13138/',
+    linked: 'https://twitter.com/michygeek',
     img: Collins,
   },
   {
@@ -34,7 +35,7 @@ const teamData = [
   },
   {
     id: 5,
-    founderName: 'Colin Power',
+    founderName: 'Collin Power',
     pos: 'Crypto Economist',
     linked: 'https://twitter.com/collin_code',
     img: Mich,
@@ -76,12 +77,12 @@ const Team = () => {
                 <img src={team.img} alt="" />
                 <h3 className='found-name'>{team.founderName}</h3>
                 <small>{team.pos}</small>
-                <div className="team-socials">
+                {/* <div className="team-socials">
                  
                   <a href={team.linked} target="_blank" rel="noreferrer">
-                    {/* <img src={linkedin} alt="linkedin" /> */}
+                    <img src={linkedin} alt="linkedin" />
                   </a>
-                </div>
+                </div> */}
               </div>
             )
           })}

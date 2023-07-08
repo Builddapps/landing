@@ -47,7 +47,7 @@ const Accord = () => {
     <div className='accord_containner'>
         <div className='accordion_h1'>
             <span className='accordion_title'></span>
-            <h1>Investors and token holders Incentives % Benefits</h1>
+            <h1>Investors and token holders Benefits</h1>
         
         </div>
         <div className='accordion_cont'>

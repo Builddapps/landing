@@ -7,6 +7,8 @@ import logo3 from '../../assets/logoblack.png'
 // import medium from '../../assets/fmedium.svg'
 import twitter from '../../assets/ftwitter.svg'
 import discord from '../../assets/Fdiscord.svg'
+import Litepaper from '../../assets/decentrabuilds.pdf';
+
 
 const Footer = () => {
   // const [emailList, setEmaillist] = useState('')
@@ -37,34 +39,34 @@ const Footer = () => {
                 <Link className="lin" to="/tokenomics">
                   TOKEN
                 </Link>
-                <Link className="lin" to={'/docs'}>
+                <Link className="lin" to={'/tokenomics'}>
                   ROADMAP
                 </Link>
-                <Link className="lin" to={'./artisteform'}>
-                  ARTISTE
+                <Link className="lin" to={'./projectsform'}>
+                  PROJECTS
                 </Link>
               </div>
               <div className="left-menu">
                 <h3>COMPANY</h3>
                 <a
                   className="lin"
-                  href="https://bullchords-organization.gitbook.io/litepaper/"
+                  href={Litepaper}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  WHITEPAPER
+                  LITEPAPER
                 </a>
                 <Link className="lin" to={'./team'}>
                   TEAM
                 </Link>
-                <a
+                {/* <a
                   className="lin"
                   href="https://bullchords-organization.gitbook.io/litepaper/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GITHUB
-                </a>
+                   GITHUB
+                </a> */}
               </div>
             </div>
             <div className="footer-menu-down">

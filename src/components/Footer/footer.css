@@ -78,6 +78,7 @@
 .right-menu {
   display: flex;
   flex-direction: column;
+  padding-left: 10px;
 }
 .left-menu a,
 .right-menu a {

@@ -21,8 +21,7 @@ const Chart = () => {
             <h1>Builders currency</h1>
 
             <a
-              disabled
-              href="www.man.com"
+              href="https://www.decentrabuilds.com/"
               target="_blank"
               rel="noreferrer"
               className="BBT-link"
