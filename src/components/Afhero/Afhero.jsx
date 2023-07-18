@@ -19,7 +19,7 @@ function Afhero() {
 
             </p>
 
-                    <p>Decentrabuilds provides  investors with access to a multiple portfolio of projects. Decentrabuilds will help web3 startups across all industries and blockchain networks to build products and services that solve real-world problems.</p>
+                    <p>Decentrabuilds provides  investors with access to a multiple portfolio of projects. Decentrabuilds will help web3 startups across all industries and blockchain networks to build products and services.</p>
                     <p></p>
                 </div>
             </div>

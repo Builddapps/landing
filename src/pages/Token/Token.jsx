@@ -40,7 +40,7 @@ const Chart = () => {
             <img src={Build} alt="" srcset="" />
             <h2>Builders Token</h2>
             <p>
-              The decentrabuilds token served as the builders token. It is the token for the project partners as well as the key valid for the investors to earn in the partners project. 
+              The decentrabuilds token serves as the builders token. It is the token for the project partners as well as the key value for the investors to earn in the partners project. 
             </p>
           </div>
           <div className="col2">
@@ -61,11 +61,11 @@ const Chart = () => {
 
         <div className="multi-chain_coin">
           <h2>
-            Decentrabuilds token is on the BSC network. However, if there will be a need to have a wrap on other network in the future, eg("$DCEB Aptos"), the amount of token will be burnt on the BSC network. 
+            Decentrabuilds token is on the BSC network. If there will be a need to have a wrap on other network in the future, eg("$DCEB Eth"), the amount of token will be burnt on the BSC network. 
           </h2>
           <p>
             Wrapped tokens will serve to maintain operability and seamless multi-chain
-            activities and will always remain liquid on all
+            activities and will remain liquid on all
             networks.
           </p>
         </div>
@@ -82,6 +82,9 @@ const Chart = () => {
             </div>
             <div className="roadmap-div">
               <h2>Project Research</h2>
+            </div>
+            <div className="roadmap-div">
+              <h2>Private Sale</h2>
             </div>
             <div className="roadmap-div">
               <h2>Launch Pad</h2>
