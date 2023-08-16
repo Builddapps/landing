@@ -13,21 +13,21 @@ function Buildweb() {
         <h1>For everyone that want to build the next big solution.</h1>
         <p className="buildp">
           {' '}
-          Join the venture capitalist for holding tokens. Be part of awesome projects <br/>on the web3 for holding $DCEB token.
+          Join the venture capitalist for holding tokens. Be part of awesome projects <br/>on the web3 for holding $DBUILDS token.
         </p>
         <div className="buildweb_row">
           <div data-aos="fade-right" className="buildweb_col1">
             <p data-aos="fade-right">
               {' '}
               Decentrabuilds is a DAO protocol that allows the 
-              community to leverage effortlessly on projects through the $DCEB token.
+              community to leverage effortlessly on projects through the $DBUILDS token.
               {' '}
             </p>
           </div>
           <div data-aos="fade-left" className="buildweb_col2">
             <p data-aos="fade-left">
               {' '}
-              $DCEB token investors and holders are builders of the future.
+              $DBUILDS token investors and holders are builders of the future.
               Every token of Decentrabuilds is a share for every application
               that are built through our support.{' '}
             </p>

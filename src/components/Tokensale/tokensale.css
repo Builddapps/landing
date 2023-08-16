@@ -1,0 +1,262 @@
+.time_container {
+    margin: 5rem;
+}
+
+.time_row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buythings p img {
+    width: 12px;
+}
+
+.countdown-timer {
+    display: flex;
+}
+
+.time_container h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 35px;
+    font-family: 'machina';
+}
+
+.token_contract {
+    color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.time_row .col1 {
+    border: 1px solid #14caa5;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 1rem;
+    background-image: url('../../assets/space.png');
+    background-position: left;
+}
+
+.verfied_ox {
+    font-family: 'Courier New', Courier, monospace;
+    color: #14caa5;
+}
+
+.col_imgg p {
+    color: #ffffff;
+    font-family: machina;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.time_row .col2 {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.fetched_price {
+    color: #14caa5;
+}
+
+.wallet_add {
+    color: #14caa5;
+    padding-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 12px; */
+}
+
+.time-block {
+    border: 1px solid #14caa5;
+    padding: 10px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #14caa5;
+    text-align: center;
+}
+
+.time {
+    font-size: 30px;
+}
+
+.bnb-price {
+    color: #14caa5;
+}
+
+.ontop_tokensale {
+    border-radius: 20px;
+    background: #000000;
+    box-shadow: 2px 2px 4px #14caa5, -2px -2px 4px #1cffdf;
+    padding: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    /* color: #000000; */
+  }
+
+  .buy_input {
+    border: #14caa5 1px solid;
+    color: #fff;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .buy_input:hover {
+    border: #fff 1px solid;
+  }
+
+  .buy_input:focus{
+    border: #14caa5 1px solid;
+  }
+
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.col_imgg {
+    text-align: center;
+}
+
+.col_img img {
+    width: 80px;
+}
+
+.buy_btn {
+    padding: 20px 30px;
+    font-size: 24px;
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    transition: 0.5s;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    background: #14caa5;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .glow-button {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    /* font-size: 16px; */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    /* border-radius: 5px; */
+    background-color: #14caa5;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .glow-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.8), transparent);
+    opacity: 0;
+    border-radius: 50%;
+    animation: glowAnimation 2s linear infinite;
+  }
+
+  @keyframes glowAnimation {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+
+  .min_max {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.fetched_price {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.caps {
+    color: #f0f0f0;
+    margin-left: 5rem;
+    font-family: poppins;
+  }
+
+.hard_cap {
+    float: right;
+}
+
+@media screen and (max-width: 920px)  {
+    .time_row {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+
+    .time_container {
+        margin: 0.5rem;
+    }
+
+    .time_row .col1 {
+        border: 1px solid #14caa5;
+        height: inherit;
+        width: inherit;
+        border-radius: 20px;
+        padding: 0.5rem;
+    }
+
+    .ontop_tokensale {
+        border-radius: 20px;
+        background: #000000;
+        box-shadow: 3px 3px 5px #14caa5, -3px -3px 5px #1cffdf;
+        padding: 20px;
+        /* margin-left: 5rem;
+        margin-right: 5rem; */
+        /* color: #000000; */
+      }
+
+      .time-block {
+        border: 1px solid #14caa5;
+        padding: 10px;
+        width: 60px;
+        margin: 5px;
+        border-radius: 10px;
+        color: #14caa5;
+        text-align: center;
+    }
+
+    .time {
+        font-size: 20px;
+    }
+
+    .time_row .col2 {
+        color: #ffffff;
+        font-size: 13px;
+        text-align: center;
+    }
+    .token_contract {
+        color: #ffffff;
+        font-size: 13px;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+}

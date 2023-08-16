@@ -72,8 +72,8 @@
   margin-right: 40px;
 }
 
-/* .btn {
-  padding: 19px 39px;
+.btn {
+  padding: 15px 35px;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -82,16 +82,16 @@
   font-family: "Machina";
   font-style: normal;
   font-weight: 400;
-  border: none;
+  border: 1px solid #18EEC2;
   border-radius: 6px;
   outline: none;
-  background: #6d00bf;
+  background: #000000;
   flex: none;
   order: 5;
   flex-grow: 0;
   cursor: pointer;
   color: #ffffff;
-} */
+}
 
 /* .btn a {
 } */

@@ -21,12 +21,12 @@ const Chart = () => {
             <h1>Builders currency</h1>
 
             <a
-              href="https://www.decentrabuilds.com/"
+              href="https://www.decentrabuilds.com/#tokensale"
               target="_blank"
               rel="noreferrer"
               className="BBT-link"
             >
-              Buy Buidl Tokens
+              Buy DBUILDS Tokens
             </a>
             {/* </button> */}
           </div>

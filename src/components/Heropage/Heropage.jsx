@@ -36,14 +36,14 @@ const Header = () => {
                   {' '}
                   <img src={Dollar} alt="" srcset="" /> Initial Capitalization
                 </sub>
-                <p>$243,000</p>
+                <p>$499,901</p>
               </div>
               <div className="col_2">
                 <sub>
                   {' '}
                   <img src={Pen} alt="" srcset="" /> Total proposals
                 </sub>
-                <p>23</p>
+                <p>9</p>
               </div>
               <div className="col_3">
                 <sub>
@@ -57,7 +57,7 @@ const Header = () => {
                   {' '}
                   <img src={Crowd} alt="" srcset="" /> Token holders
                 </sub>
-                <p>1</p>
+                <p>2</p>
               </div>
             </div>
           </div>

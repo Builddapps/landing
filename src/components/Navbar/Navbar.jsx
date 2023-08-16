@@ -50,17 +50,17 @@ const Navbar = () => {
           <Menu/>
         </div>
       </div>
-      {/* <div className="bull3__navbar-sign">
+      <div className="bull3__navbar-sign">
         <a
-          href="https://discord.gg/bPzTeDke2h"
-          target="_blank"
+          href="#tokensale"
+          // target="_blank"
           rel="noreferrer"
           className="btn btn-1"
           type="button"
         >
-          Join Discord
+          Buy Token
         </a>
-      </div> */}
+      </div>
       <div className="bull3__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
@@ -82,16 +82,16 @@ const Navbar = () => {
             <div className="bull3__navbar-menu_container-links" onClick={() => setToggleMenu(false)}>
             <Menu/> 
               <div className="bull3__navbar-menu_container-links-sign">
-                {/* <p>Sign In</p> */}
-                {/* <button className="btn btn-1" type="button">
+                <p>Sign In</p>
+                <button className="btn btn-1" type="button">
                   <a
-                    href="https://discord.gg/bPzTeDke2h"
-                    target="_blank"
+                    href="#tokensale"
+                    // target="_blank"
                     rel="noreferrer"
                   >
-                    Join Discord 
+                    Buy Token 
                   </a>
-                </button> */}
+                </button>
               </div>
             </div>
           </div>
