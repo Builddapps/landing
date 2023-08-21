@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import logo from '../../assets/logoblack.png'
 import './navbar.css'
 // Try and understand BEM later BLOCK ELEMENT MODIFIER
-import Litepaper from '../../assets/decentrabuilds.pdf';
+import Litepaper from '../../assets/dbuilds.pdf';
 
 const Menu = () => (
   <>
@@ -18,6 +18,9 @@ const Menu = () => (
     <Link to={'/community'} className="links">
       Community
     </Link>
+    {/* <Link to={'/litepaper'} className="links">
+      Litepaper
+    </Link> */}
     <a
       href={Litepaper}
       target="_blank"
@@ -52,7 +55,7 @@ const Navbar = () => {
       </div>
       <div className="bull3__navbar-sign">
         <a
-          href="#tokensale"
+          href="https://www.decentrabuilds.com/#tokensale"
           // target="_blank"
           rel="noreferrer"
           className="btn btn-1"

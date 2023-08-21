@@ -57,7 +57,7 @@ const Header = () => {
                   {' '}
                   <img src={Crowd} alt="" srcset="" /> Token holders
                 </sub>
-                <p>2</p>
+                <p>-</p>
               </div>
             </div>
           </div>

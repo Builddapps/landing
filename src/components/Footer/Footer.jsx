@@ -7,7 +7,7 @@ import logo3 from '../../assets/logoblack.png'
 // import medium from '../../assets/fmedium.svg'
 import twitter from '../../assets/ftwitter.svg'
 import discord from '../../assets/Fdiscord.svg'
-import Litepaper from '../../assets/decentrabuilds.pdf';
+import Litepaper from '../../assets/dbuilds.pdf';
 
 
 const Footer = () => {

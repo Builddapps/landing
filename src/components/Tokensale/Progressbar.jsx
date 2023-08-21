@@ -21,7 +21,7 @@ class ProgressBar extends Component {
   }
 
   incrementProgress() {
-    if (this.state.progress < 3) {
+    if (this.state.progress < 1) {
       this.setState(prevState => ({ progress: prevState.progress + 1 }));
     } else {
       clearInterval(this.timerInterval);

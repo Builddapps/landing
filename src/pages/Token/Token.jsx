@@ -61,7 +61,7 @@ const Chart = () => {
 
         <div className="multi-chain_coin">
           <h2>
-            Decentrabuilds token is on the BSC network. If there will be a need to have a wrap on other network in the future, eg("$DCEB Eth"), the amount of token will be burnt on the BSC network. 
+            Decentrabuilds token is on the BSC network. If there will be a need to have a wrap on other network in the future, eg("$DBUILDS Eth"), the amount of token will be burnt on the BSC network. 
           </h2>
           <p>
             Wrapped tokens will serve to maintain operability and seamless multi-chain
@@ -87,16 +87,7 @@ const Chart = () => {
               <h2>Private Sale</h2>
             </div>
             <div className="roadmap-div">
-              <h2>Launch Pad</h2>
-            </div>
-            <div className="roadmap-div">
-              <h2>Dex Listing/Liquity lock</h2>
-            </div>
-            <div className="roadmap-div">
               <h2>Strategic Partnership</h2>
-            </div>
-            <div className="roadmap-div">
-              <h2>List on Coinmarketcap & Coingecko</h2>
             </div>
             <div className="roadmap-div">
               <h2>Dao Voting Application</h2>
@@ -104,6 +95,15 @@ const Chart = () => {
           </div>
           <h1>Q4, 2023</h1>
           <div className="road_col2">
+          <div className="roadmap-div">
+              <h2>Launch Pad</h2>
+            </div>
+            <div className="roadmap-div">
+              <h2>Dex Listing/Liquity lock</h2>
+            </div>
+            <div className="roadmap-div">
+              <h2>List on Coinmarketcap & Coingecko</h2>
+            </div>
             <div className="roadmap-div">
               <h2>Lottery App</h2>
             </div>
@@ -144,7 +144,7 @@ const Chart = () => {
         </div>
 
         <div className="token_ditribution">
-          <h1>BuILD token distribution</h1>
+          <h1>$DBUILDS token distribution</h1>
           <div className="token-distribution_row">
             <div className="token_dist_col1"></div>
             <div className="token_dist_col2">

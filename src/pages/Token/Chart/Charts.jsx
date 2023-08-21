@@ -4,7 +4,7 @@ import Chart from "react-apexcharts";
  const Charts = () => {
     const options = {
         series: [10,25,2,8,12,10,15,18],
-        labels: ['Presale', 'Project allocation', 'Strategic Support', 'Team/Advisor Tokens', 'Partnership / Ecosystem / Marketing', '$buildl Staking Rewards', 'Liquidity Pool Rewards', 'Reserves'],
+        labels: ['Presale (-2% private sale)', 'Project allocation', 'Strategic Support', 'Team/Advisor Tokens', 'Partnership / Ecosystem / Marketing', '$buildl Staking Rewards', 'Liquidity Pool Rewards', 'Reserves'],
          colors: ["#18EEC2", "#FF5733", "#26DCEE","#D026EE","#A226EE" ,"#4A26EE" ,"#2672EE" ,"#26EE6C"],
          plotOptions: {
               pie: {
@@ -55,7 +55,7 @@ import Chart from "react-apexcharts";
             </div>
             <div className="apchart_col2">
                 <ul>
-                    <li className="presale">Presale 10%</li>
+                    <li className="presale">Presale 10% (-2% Private sale)</li>
                     <li className="project_allocation">Project Allocation 25%</li>
                     <li className="strategic">Strategic Support 2%</li>
                     <li className="team_ads">Team and Advisors 8%</li>

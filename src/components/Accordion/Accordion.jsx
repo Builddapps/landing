@@ -5,7 +5,7 @@ const dataCollection = [
     {
         question: 'Projects Investment Reward',
 
-        answer: ' Decentrabuilds will support projects that are building on web3 based on the decison through voting of the community and token holders. The projects we fund will have the obligation to support the investors($DCEB token holders) at the successful launch of the their project and token. The token received from the dapps will be distributed to all the people that participated in the voting round in proprotion to the $DCEB token they locked. There is a vesting period of 4 months for the token to be distributed to all holders. ',
+        answer: ' Decentrabuilds will support projects that are building on web3 based on the decison through voting of the community and token holders. The projects we fund will have the obligation to support the investors($DBUILDS token holders) at the successful launch of the their project and token. The token received from the dapps will be distributed to all the people that participated in the voting round in proprotion to the $DBUILDS token they locked. There is a vesting period of 4 months for the token to be distributed to all holders. ',
     },
 
     {
@@ -15,7 +15,7 @@ const dataCollection = [
 
     {
         question: 'Locking Reward',
-        answer: ' Locking $DCEB tokens allows you to participate in the voting rounds for projects which gives you back the reward through your votes and you also earn: 30days(12%APR), 90days(28%APR), 180days(58%APY) and 360days(88%APR).',
+        answer: ' Locking $DBUILDS tokens allows you to participate in the voting rounds for projects which gives you back the reward through your votes and you also earn: 30days(12%APR), 90days(28%APR), 180days(58%APY) and 360days(88%APR).',
     },
 
     {
@@ -24,7 +24,7 @@ const dataCollection = [
     },
     {
         question: 'Governance',
-        answer: ' $DCEB tokens gives access to join the decision makers in the ecosystem.',
+        answer: ' $DBUILDS tokens gives access to join the decision makers in the ecosystem.',
     },
 
 ];

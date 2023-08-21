@@ -1,5 +1,5 @@
 import React from 'react'
-import Artistes from '../pages/Artist/Artists'
+import Litepaper from '../pages/Lightpaper/Litepaper'
 import Team from '../pages/Team/Team'
 import Community from '../pages/Community/Community'
 import Tokenomics from '../pages/Token/Token'
@@ -17,7 +17,7 @@ const Layouts = () => {
       <div className="layout">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/artistes" element={<Artistes />} />
+          <Route path="/litepaper" element={<Litepaper />} />
           <Route path="/team" element={<Team />} />
           <Route path='/community' element={<Community/>}/>
           <Route path="/tokenomics" element={<Tokenomics />} />

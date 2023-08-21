@@ -104,7 +104,7 @@ class CountdownTimer extends Component {
       <PriceDisplay />
     <p className='min_max'>Min buy: $50 | Max buy $1,000</p>
     </div>
-    <sub className='caps'>$5,000 <span className='hard_cap'>$10,000 </span></sub>
+    <sub className='caps'>$10,000 <span className='hard_cap'>$100,000 </span></sub>
       <ProgressBar/>
       <sup className='caps'>Soft cap <span className='hard_cap'>Hard cap </span></sup>
         </div>
