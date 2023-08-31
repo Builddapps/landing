@@ -11,7 +11,7 @@ class CountdownTimer extends Component {
     super(props);
 
     this.state = {
-      targetDate: new Date('2023-12-31T00:00:00').getTime(), // Replace with your target date and time
+      targetDate: new Date('2023-11-01T00:00:00').getTime(), // Replace with your target date and time
       timeRemaining: {}
     };
 
@@ -57,8 +57,10 @@ class CountdownTimer extends Component {
       //   this.setState({ inputValue: amount, showCol2: true });
       //   e.target.amount.value = '';
       // }
-      if (amount < 50) {
-        this.setState({ inputValue: "Value is less than 50", showCol2: false });
+      if (isNaN(amount)) {
+        this.setState({ inputValue: "Value is not a valid number", showCol2: false });
+      } else if (amount < 20) {
+        this.setState({ inputValue: "Value is less than 20", showCol2: false });
       } else if (amount > 1000) {
         this.setState({ inputValue: "Value is more than 1000", showCol2: false });
       } else {
@@ -102,7 +104,7 @@ class CountdownTimer extends Component {
       </form>
       <div className='fetched_price'>
       <PriceDisplay />
-    <p className='min_max'>Min buy: $50 | Max buy $1,000</p>
+    <p className='min_max'>Min buy: $20 | Max buy $1,000</p>
     </div>
     <sub className='caps'>$10,000 <span className='hard_cap'>$100,000 </span></sub>
       <ProgressBar/>
