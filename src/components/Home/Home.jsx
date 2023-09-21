@@ -6,6 +6,7 @@ import Buildweb from '../Buildweb/Buildweb'
 import Slide from '../Slide/Slide'
 import Accord from '../Accordion/Accordion'
 import Tokensale from '../Tokensale/CountdownTimer'
+import Partners from '../Partners/Partners'
 import './home.css'
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Afhero/>
       <Features/>
       <Accord/>
+      <Partners/>
       <Allchain/>
     </div>
   )

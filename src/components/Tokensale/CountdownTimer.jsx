@@ -27,7 +27,7 @@ class CountdownTimer extends Component {
     clearInterval(this.timerInterval);
   }
 
-  calculateTimeRemaining() {
+   calculateTimeRemaining() {
     const now = new Date().getTime();
     const timeRemaining = this.state.targetDate - now;
 
@@ -46,7 +46,7 @@ class CountdownTimer extends Component {
 
  
   render() {
-    const { days, hours, minutes, seconds } = this.state.timeRemaining;
+    // const { days, hours, minutes, seconds } = this.state.timeRemaining;
 
     const wallet = "0x4EA6826a54bdE538D4dd2E067868d53daF1bAC67";
 
@@ -80,7 +80,7 @@ class CountdownTimer extends Component {
           <p>Buy DBUILDS 50% off Listing Price</p>
           <img src={DCEB} alt="" />
           </div>
-        <div className="countdown-timer">
+        {/* <div className="countdown-timer">
         <div className="time-block">
           <div className="time">{days}</div>
           <div className="time-label">Days</div>
@@ -97,7 +97,7 @@ class CountdownTimer extends Component {
           <div className="time">{seconds}</div>
           <div className="time-label">Seconds</div>
         </div>
-      </div>
+      </div> */}
       <form action="" onSubmit={handleSubmit}>
       <input className='buy_input' type="number" name="amount" id="" placeholder=' ...Amount in $' />
       <button className='buy_btn glow-button'>BUY</button>
